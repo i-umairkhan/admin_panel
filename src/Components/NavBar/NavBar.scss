@@ -16,6 +16,7 @@
       align-items: center;
       border: 0.5px solid lightgray;
       padding: 3px;
+      cursor: pointer;
       input {
         border: none;
         outline: none;
@@ -33,6 +34,7 @@
         align-items: center;
         margin: 20px;
         position: relative;
+        cursor: pointer;
         .icon {
           font-size: 20px;
         }
