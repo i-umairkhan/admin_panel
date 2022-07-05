@@ -1,6 +1,7 @@
 import "./Home.scss";
 import SideBar from "../../Components/SideBar/SideBar";
 import NavBar from "../../Components/NavBar/NavBar";
+import Widget from "../../Components/Widget/Widget";
 
 const Home = () => {
   return (
@@ -8,7 +9,12 @@ const Home = () => {
       <SideBar />
       <div className="homecontainer">
         <NavBar />
-        Homeconatiner
+        <div className="widgets">
+          <Widget type="user" />
+          <Widget type="order" />
+          <Widget type="earning" />
+          <Widget type="balance" />
+        </div>
       </div>
     </div>
   );
